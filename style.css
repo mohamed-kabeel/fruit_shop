@@ -1,0 +1,266 @@
+h1,h2,h4{
+    margin-bottom: 0;
+}
+
+.header{
+    /*margin-bottom:30px ;*/
+    margin:0;
+    margin-left :150px
+}
+.head_container{
+    margin-bottom: 40px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+.header li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    /*margin-bottom: 45px;*/
+    
+}
+#logo{
+    width: 50;
+    height: 45;
+    /*align-items: center;*/
+    margin-left: 70;
+    padding-top: 0;
+
+}
+li:nth-of-type(1){
+    margin-right: 360px;
+   
+    /*padding: 80px;*/
+}
+.search{
+    width: 15px;
+    height: 15px;
+}
+.par1{
+    max-width: 350px;
+    /*padding-top : 40px;*/
+    padding-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 35px;
+
+    
+}
+
+
+.welcome h1{
+    padding-top :0;
+    max-width: 400px;
+    font-weight: 1800;
+    font-size: 50;
+    margin-bottom: 20px;
+}
+#dish{
+    width: 500;
+    height: 300px;
+    padding-left: 50px;
+}
+.shop,.contact{
+    width: 140;
+    height: 30;
+    color:white;
+    margin:10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.shop{
+    background-color: orange;
+    
+}
+.contact{
+    background-color: black;
+}
+.shop,.contact:hover{
+    cursor: pointer;
+}
+.shop:active,.contact:active{
+    background-color:green ;
+}
+/*.par2{
+    display: inline-block;
+    max-width: 100px;
+}*/
+#table2{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.par2{
+    max-width: 259;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.line_img{
+    text-align: center;
+}
+/*table:nth-of-type(2){
+    text-align: center;
+    border-spacing: 30px;
+}*/
+
+.cell1,.cell2,.cell3{
+    
+    border: 2px solid lightgray ;
+    border-radius: 5px;
+    margin-right:50px ;
+    text-align: center;
+    /*padding: 10px;*/
+}
+.cell1:hover,.cell2:hover,.cell3:hover{
+    
+    border-top: 2px solid orange ;
+    border-top-width:15px ;
+    
+}
+#table2 h3{
+    color:orange;
+}
+/*.prod_table{
+    /*margin-top: 20px;
+    margin-left: 300px;
+    
+}*/
+#prod_par{
+    width: 600px;
+    margin-right:100px ;
+    padding-left:0 ; 
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.graph_row{
+    position: relative;
+    left: -35;
+}
+.prod_table h3{
+    margin-bottom: 0;
+    font-size: 30;
+}
+
+/*#prod_img{
+    height: 200;
+    width: 200;
+
+}*/
+
+img[src *= "Gauva"],img[src *= "Orange"]{
+    width: 200;
+    height: 200;
+
+}
+button{
+    width: 160px;
+    height: 30px;
+    color :white;
+    background-color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#tasty_img{
+    width: 1520px;
+    height: 500px;
+}
+
+.pos_parg{
+    font-size: 100px;
+    font-weight: bolder;
+    color:white;
+    position: relative;
+    top :-450;
+    margin-bottom: -200;
+    right: -320;
+    z-index: 10; 
+    
+}
+.client_parg{
+    text-align: center;
+}
+.form{
+    margin-left :300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.form_data input{
+    border: none;
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+.form_data input:hover{
+    
+    border-bottom: 1px solid blue;
+}
+.form_data input:active,input:focus{
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+}
+.form_data{
+    /*padding-left: 50px;*/
+    margin-right: 360px;
+    margin-top:0;
+}
+textarea{
+    margin-top :25px;
+
+    border: none;
+    resize: none;
+    border-bottom: 1px solid black;
+    width: 600px;
+    
+}
+textarea:hover{
+    border: none;
+    border-bottom: 1px solid blue;
+    outline: none;
+}
+textarea:focus{
+    border: none;
+    border-bottom: 1px solid blue;
+    outline: none;
+}
+textarea:active{
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+}
+form button{
+    background-color: orange;
+}
+.form_img{
+    width: 250px;
+    height: 250px;
+}
+
+.footer{
+    display: inline-block;
+    margin-right:  40px;
+    /*border: 2px solid black;*/
+    width: 190px;
+    list-style-type: none;
+}
+
+.footer button{
+    background-color: green;
+}
+
+
+h5{
+    display: inline-block;
+    text-align: center;
+}
+.copyright{
+    background-color: lightgray;
+    margin-bottom: 0;
+    padding: 4px;
+   }
